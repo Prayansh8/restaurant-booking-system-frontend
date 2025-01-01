@@ -1,0 +1,8 @@
+  [build]
+     command = "npm run build"
+     publish = "frontend/out"  # If 'next export' outputs here
+
+   [[redirects]]
+     from = "/*"
+     to = "/index.html"
+     status = 200
